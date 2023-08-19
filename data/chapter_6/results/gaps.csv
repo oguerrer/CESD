@@ -1,0 +1,451 @@
+group,sdg,seriesCode,meanGap
+Africa,1,sdg1_320pov,55.52698032537584
+Africa,1,sdg1_oecdpov,
+Africa,1,sdg1_wpc,34.19090334938829
+Africa,2,sdg2_crlyld,77.23647275875071
+Africa,2,sdg2_obesity,11.336761266318753
+Africa,2,sdg2_snmi,63.62173691594585
+Africa,2,sdg2_stunting,50.263243062964946
+Africa,2,sdg2_trophic,8.252795114744643
+Africa,2,sdg2_undernsh,17.13971730660048
+Africa,2,sdg2_wasting,38.463873406895985
+Africa,3,sdg3_births,20.991200717003018
+Africa,3,sdg3_fertility,33.41504383842209
+Africa,3,sdg3_hiv,1.7247334412082866
+Africa,3,sdg3_incomeg,
+Africa,3,sdg3_matmort,11.212300394940856
+Africa,3,sdg3_neonat,31.64099283688331
+Africa,3,sdg3_smoke,
+Africa,3,sdg3_swb,37.035020753083856
+Africa,3,sdg3_tb,9.471774346511102
+Africa,3,sdg3_traffic,38.818973602841076
+Africa,3,sdg3_u5mort,13.378128926443924
+Africa,3,sdg3_vac,16.713053103766576
+Africa,4,sdg4_earlyedu,
+Africa,4,sdg4_primary,12.389516460169071
+Africa,4,sdg4_second,40.09353119286568
+Africa,4,sdg4_tertiary,
+Africa,5,sdg5_edat,26.446598771938664
+Africa,5,sdg5_lfpr,16.544114626833107
+Africa,5,sdg5_parl,43.29990048472933
+Africa,5,sdg5_paygap,
+Africa,6,sdg6_safesan,
+Africa,6,sdg6_safewat,
+Africa,6,sdg6_sanita,55.69158960994593
+Africa,6,sdg6_scarcew,1.186715749201458
+Africa,6,sdg6_water,26.14374118946314
+Africa,7,sdg7_cleanfuel,71.59425113700914
+Africa,7,sdg7_co2twh,3.9730637342890476
+Africa,7,sdg7_elecac,35.19421309465913
+Africa,7,sdg7_ren,
+Africa,8,sdg8_empop,
+Africa,8,sdg8_gdpgrowth,35.27330379675252
+Africa,8,sdg8_impacc,1.270450579310237
+Africa,8,sdg8_unemp,19.597716668238526
+Africa,8,sdg8_yneet,
+Africa,9,sdg9_articles,97.25402610028563
+Africa,9,sdg9_intuse,62.6420818029653
+Africa,9,sdg9_mobuse,45.962198052513465
+Africa,9,sdg9_netacc,
+Africa,9,sdg9_patents,
+Africa,9,sdg9_rdex,90.26514199716452
+Africa,9,sdg9_rdres,
+Africa,9,sdg9_womensci,
+Africa,10,sdg10_adjgini,
+Africa,10,sdg10_elder,
+Africa,10,sdg10_palma,
+Africa,11,sdg11_pipedwat,33.35673912186301
+Africa,11,sdg11_pm25,33.670386094745346
+Africa,11,sdg11_rentover,
+Africa,11,sdg11_slums,43.84123547479446
+Africa,11,sdg11_transport,34.053543778872985
+Africa,13,sdg13_co2gcp,1.5096861604171437
+Africa,13,sdg13_co2import,0.5254547371528986
+Africa,14,sdg14_cleanwat,50.82048635721195
+Africa,14,sdg14_cpma,47.432291073542345
+Africa,14,sdg14_fishstocks,39.459755364023415
+Africa,14,sdg14_trawl,14.213237169134649
+Africa,15,sdg15_cpfa,41.320938344392616
+Africa,15,sdg15_cpta,51.64885660310305
+Africa,15,sdg15_redlist,15.461662878951147
+Africa,16,sdg16_homicides,7.425956844088126
+Africa,16,sdg16_prison,
+Africa,16,sdg16_rsf,29.99364134114165
+Africa,17,sdg17_govex,63.7998464326751
+Africa,17,sdg17_govrev,52.27254364542187
+Africa,17,sdg17_oda,
+E. Europe & C. Asia,1,sdg1_320pov,3.7745767338520935
+E. Europe & C. Asia,1,sdg1_oecdpov,57.89294986660292
+E. Europe & C. Asia,1,sdg1_wpc,0.35857183490859706
+E. Europe & C. Asia,2,sdg2_crlyld,40.66297135402509
+E. Europe & C. Asia,2,sdg2_obesity,25.03554648838403
+E. Europe & C. Asia,2,sdg2_snmi,50.25474349244676
+E. Europe & C. Asia,2,sdg2_stunting,16.513247716279025
+E. Europe & C. Asia,2,sdg2_trophic,15.3911808671894
+E. Europe & C. Asia,2,sdg2_undernsh,2.560436253748509
+E. Europe & C. Asia,2,sdg2_wasting,17.728609583650243
+E. Europe & C. Asia,3,sdg3_births,0.47935685829798913
+E. Europe & C. Asia,3,sdg3_fertility,7.37971846328614
+E. Europe & C. Asia,3,sdg3_hiv,0.6268034015823765
+E. Europe & C. Asia,3,sdg3_incomeg,73.94309994843975
+E. Europe & C. Asia,3,sdg3_matmort,0.28740875948289357
+E. Europe & C. Asia,3,sdg3_neonat,3.4521008620610325
+E. Europe & C. Asia,3,sdg3_smoke,17.62079992534016
+E. Europe & C. Asia,3,sdg3_swb,20.653468617873656
+E. Europe & C. Asia,3,sdg3_tb,1.2633783220123287
+E. Europe & C. Asia,3,sdg3_traffic,6.660411071594121
+E. Europe & C. Asia,3,sdg3_u5mort,0.8826950834993287
+E. Europe & C. Asia,3,sdg3_vac,12.119705436710525
+E. Europe & C. Asia,4,sdg4_earlyedu,10.279062090027274
+E. Europe & C. Asia,4,sdg4_primary,4.22275031161999
+E. Europe & C. Asia,4,sdg4_second,4.160460662541498
+E. Europe & C. Asia,4,sdg4_tertiary,3.1972402992869107
+E. Europe & C. Asia,5,sdg5_edat,2.9491677707136326
+E. Europe & C. Asia,5,sdg5_lfpr,25.97273165842886
+E. Europe & C. Asia,5,sdg5_parl,37.27071601257298
+E. Europe & C. Asia,5,sdg5_paygap,
+E. Europe & C. Asia,6,sdg6_safesan,10.206488904780478
+E. Europe & C. Asia,6,sdg6_safewat,3.33887269193891
+E. Europe & C. Asia,6,sdg6_sanita,3.3154346846249227
+E. Europe & C. Asia,6,sdg6_scarcew,4.3423522065945885
+E. Europe & C. Asia,6,sdg6_water,3.370335444174781
+E. Europe & C. Asia,7,sdg7_cleanfuel,3.302690858111744
+E. Europe & C. Asia,7,sdg7_co2twh,1.2654304225484818
+E. Europe & C. Asia,7,sdg7_elecac,0.10934801759496515
+E. Europe & C. Asia,7,sdg7_ren,42.021356919083885
+E. Europe & C. Asia,8,sdg8_empop,19.095767060010434
+E. Europe & C. Asia,8,sdg8_gdpgrowth,53.75975985783962
+E. Europe & C. Asia,8,sdg8_impacc,2.2307327574262916
+E. Europe & C. Asia,8,sdg8_unemp,16.139151301649278
+E. Europe & C. Asia,8,sdg8_yneet,16.110838263813744
+E. Europe & C. Asia,9,sdg9_articles,58.795857252789126
+E. Europe & C. Asia,9,sdg9_intuse,9.447023245202137
+E. Europe & C. Asia,9,sdg9_mobuse,6.556208550813758
+E. Europe & C. Asia,9,sdg9_netacc,34.15147843941532
+E. Europe & C. Asia,9,sdg9_patents,97.61903149360379
+E. Europe & C. Asia,9,sdg9_rdex,84.90535107076735
+E. Europe & C. Asia,9,sdg9_rdres,55.239910793357495
+E. Europe & C. Asia,9,sdg9_womensci,33.57895503571455
+E. Europe & C. Asia,10,sdg10_adjgini,30.6955584335636
+E. Europe & C. Asia,10,sdg10_elder,82.11378423916942
+E. Europe & C. Asia,10,sdg10_palma,12.32361047175363
+E. Europe & C. Asia,11,sdg11_pipedwat,4.932910925119565
+E. Europe & C. Asia,11,sdg11_pm25,11.496217068295188
+E. Europe & C. Asia,11,sdg11_rentover,0.0
+E. Europe & C. Asia,11,sdg11_slums,2.8913256346474348
+E. Europe & C. Asia,11,sdg11_transport,28.57844041826511
+E. Europe & C. Asia,13,sdg13_co2gcp,8.585818552631398
+E. Europe & C. Asia,13,sdg13_co2import,1.7734827130801667
+E. Europe & C. Asia,14,sdg14_cleanwat,46.131384597505075
+E. Europe & C. Asia,14,sdg14_cpma,20.504472893119896
+E. Europe & C. Asia,14,sdg14_fishstocks,38.67188403448226
+E. Europe & C. Asia,14,sdg14_trawl,34.94316314505546
+E. Europe & C. Asia,15,sdg15_cpfa,40.23953241635655
+E. Europe & C. Asia,15,sdg15_cpta,43.18361126558397
+E. Europe & C. Asia,15,sdg15_redlist,8.150312604603728
+E. Europe & C. Asia,16,sdg16_homicides,0.7496944281108275
+E. Europe & C. Asia,16,sdg16_prison,32.23948391748271
+E. Europe & C. Asia,16,sdg16_rsf,33.07882236078704
+E. Europe & C. Asia,17,sdg17_govex,52.01107646440163
+E. Europe & C. Asia,17,sdg17_govrev,32.62955693809894
+E. Europe & C. Asia,17,sdg17_oda,81.71500521356583
+East & South Asia,1,sdg1_320pov,11.836031962814694
+East & South Asia,1,sdg1_oecdpov,
+East & South Asia,1,sdg1_wpc,2.598724902638669
+East & South Asia,2,sdg2_crlyld,40.00200477560642
+East & South Asia,2,sdg2_obesity,17.958552514398548
+East & South Asia,2,sdg2_snmi,59.30353731120305
+East & South Asia,2,sdg2_stunting,36.33686023072532
+East & South Asia,2,sdg2_trophic,11.028543218916326
+East & South Asia,2,sdg2_undernsh,6.051162956574706
+East & South Asia,2,sdg2_wasting,36.9292285506454
+East & South Asia,3,sdg3_births,4.26602191159619
+East & South Asia,3,sdg3_fertility,11.883179216405145
+East & South Asia,3,sdg3_hiv,0.400411508442805
+East & South Asia,3,sdg3_incomeg,24.084971580650773
+East & South Asia,3,sdg3_matmort,1.2882629281105171
+East & South Asia,3,sdg3_neonat,12.318997651164896
+East & South Asia,3,sdg3_smoke,3.1684034832630283
+East & South Asia,3,sdg3_swb,30.60989189707435
+East & South Asia,3,sdg3_tb,9.776061788056891
+East & South Asia,3,sdg3_traffic,19.493420434261957
+East & South Asia,3,sdg3_u5mort,4.720513979013009
+East & South Asia,3,sdg3_vac,10.86523914365318
+East & South Asia,4,sdg4_earlyedu,4.720636598244399
+East & South Asia,4,sdg4_primary,2.4670901753495373
+East & South Asia,4,sdg4_second,7.689447857730052
+East & South Asia,4,sdg4_tertiary,0.0
+East & South Asia,5,sdg5_edat,7.502148117551364
+East & South Asia,5,sdg5_lfpr,28.992364497559773
+East & South Asia,5,sdg5_parl,60.98472354826859
+East & South Asia,5,sdg5_paygap,46.765724665144035
+East & South Asia,6,sdg6_safesan,0.19588135259421824
+East & South Asia,6,sdg6_safewat,0.89672865273413
+East & South Asia,6,sdg6_sanita,18.807650451384365
+East & South Asia,6,sdg6_scarcew,2.6891335862577583
+East & South Asia,6,sdg6_water,5.6456563932123185
+East & South Asia,7,sdg7_cleanfuel,44.58259608525968
+East & South Asia,7,sdg7_co2twh,1.200673178133068
+East & South Asia,7,sdg7_elecac,2.893189333019036
+East & South Asia,7,sdg7_ren,89.36359915833846
+East & South Asia,8,sdg8_empop,13.067344000753508
+East & South Asia,8,sdg8_gdpgrowth,45.23295455739767
+East & South Asia,8,sdg8_impacc,2.225172879647967
+East & South Asia,8,sdg8_unemp,9.087516040994847
+East & South Asia,8,sdg8_yneet,0.0
+East & South Asia,9,sdg9_articles,77.29334595992789
+East & South Asia,9,sdg9_intuse,38.20637963195163
+East & South Asia,9,sdg9_mobuse,13.09197633288406
+East & South Asia,9,sdg9_netacc,0.0388545956262587
+East & South Asia,9,sdg9_patents,26.674972814249156
+East & South Asia,9,sdg9_rdex,58.64919311872882
+East & South Asia,9,sdg9_rdres,17.581041228339384
+East & South Asia,9,sdg9_womensci,57.36686774951433
+East & South Asia,10,sdg10_adjgini,
+East & South Asia,10,sdg10_elder,
+East & South Asia,10,sdg10_palma,
+East & South Asia,11,sdg11_pipedwat,30.32688657760951
+East & South Asia,11,sdg11_pm25,17.879305206750015
+East & South Asia,11,sdg11_rentover,
+East & South Asia,11,sdg11_slums,29.116477530377914
+East & South Asia,11,sdg11_transport,14.109016577054572
+East & South Asia,13,sdg13_co2gcp,8.228403181595102
+East & South Asia,13,sdg13_co2import,1.5448211897237372
+East & South Asia,14,sdg14_cleanwat,42.50208975560849
+East & South Asia,14,sdg14_cpma,66.93671013731763
+East & South Asia,14,sdg14_fishstocks,42.93690748220689
+East & South Asia,14,sdg14_trawl,28.143601201243897
+East & South Asia,15,sdg15_cpfa,61.83363602059553
+East & South Asia,15,sdg15_cpta,61.17787857472144
+East & South Asia,15,sdg15_redlist,26.336591805187272
+East & South Asia,16,sdg16_homicides,1.8124989730760037
+East & South Asia,16,sdg16_prison,4.921493453414231
+East & South Asia,16,sdg16_rsf,35.259245902226446
+East & South Asia,17,sdg17_govex,53.92399937138784
+East & South Asia,17,sdg17_govrev,45.901878442041905
+East & South Asia,17,sdg17_oda,74.37791033214125
+LAC,1,sdg1_320pov,15.007813743523789
+LAC,1,sdg1_oecdpov,
+LAC,1,sdg1_wpc,7.149558552169812
+LAC,2,sdg2_crlyld,43.65771334095799
+LAC,2,sdg2_obesity,28.644811278846106
+LAC,2,sdg2_snmi,61.432158303918705
+LAC,2,sdg2_stunting,20.799053238750115
+LAC,2,sdg2_trophic,12.335297575172955
+LAC,2,sdg2_undernsh,9.088869378880789
+LAC,2,sdg2_wasting,12.419461327325871
+LAC,3,sdg3_births,1.9987888978220574
+LAC,3,sdg3_fertility,21.820845816849058
+LAC,3,sdg3_hiv,0.5650084580597946
+LAC,3,sdg3_incomeg,31.198666319432512
+LAC,3,sdg3_matmort,2.556596904952403
+LAC,3,sdg3_neonat,9.42239557081918
+LAC,3,sdg3_smoke,0.0
+LAC,3,sdg3_swb,20.963847503120355
+LAC,3,sdg3_tb,2.2157627174119705
+LAC,3,sdg3_traffic,22.892799923381578
+LAC,3,sdg3_u5mort,3.4864684076936965
+LAC,3,sdg3_vac,16.511044464814294
+LAC,4,sdg4_earlyedu,3.34715607848891
+LAC,4,sdg4_primary,7.505569604337993
+LAC,4,sdg4_second,14.780571954518715
+LAC,4,sdg4_tertiary,42.17624739792264
+LAC,5,sdg5_edat,2.2020142234712314
+LAC,5,sdg5_lfpr,26.73960206865263
+LAC,5,sdg5_parl,36.75823095641746
+LAC,5,sdg5_paygap,27.458253547336245
+LAC,6,sdg6_safesan,37.85985837094007
+LAC,6,sdg6_safewat,26.031682162243964
+LAC,6,sdg6_sanita,8.70013328768476
+LAC,6,sdg6_scarcew,2.154127189445892
+LAC,6,sdg6_water,2.829468557183767
+LAC,7,sdg7_cleanfuel,13.300642329300404
+LAC,7,sdg7_co2twh,1.0678829702675658
+LAC,7,sdg7_elecac,2.1408578386976904
+LAC,7,sdg7_ren,58.92152922932376
+LAC,8,sdg8_empop,49.8588890849241
+LAC,8,sdg8_gdpgrowth,65.75439555692431
+LAC,8,sdg8_impacc,1.2267964926405417
+LAC,8,sdg8_unemp,24.218538552580373
+LAC,8,sdg8_yneet,31.568246766719003
+LAC,9,sdg9_articles,90.25178733688325
+LAC,9,sdg9_intuse,16.54838691304009
+LAC,9,sdg9_mobuse,17.542565486832455
+LAC,9,sdg9_netacc,49.86542046932906
+LAC,9,sdg9_patents,99.60917345871322
+LAC,9,sdg9_rdex,90.46742113466846
+LAC,9,sdg9_rdres,92.29167174649791
+LAC,9,sdg9_womensci,47.064115102846564
+LAC,10,sdg10_adjgini,55.17735875590251
+LAC,10,sdg10_elder,
+LAC,10,sdg10_palma,
+LAC,11,sdg11_pipedwat,8.263902038963256
+LAC,11,sdg11_pm25,6.95159911044708
+LAC,11,sdg11_rentover,
+LAC,11,sdg11_slums,24.293128475300925
+LAC,11,sdg11_transport,29.3019363732215
+LAC,13,sdg13_co2gcp,4.012679423805877
+LAC,13,sdg13_co2import,2.9317358404764806
+LAC,14,sdg14_cleanwat,37.17057804168795
+LAC,14,sdg14_cpma,44.62897613674004
+LAC,14,sdg14_fishstocks,57.97084478310023
+LAC,14,sdg14_trawl,21.915454625886802
+LAC,15,sdg15_cpfa,44.77253145550992
+LAC,15,sdg15_cpta,56.19240942385829
+LAC,15,sdg15_redlist,21.58193614697846
+LAC,16,sdg16_homicides,17.883344949905776
+LAC,16,sdg16_prison,18.18240073010383
+LAC,16,sdg16_rsf,27.18683360984099
+LAC,17,sdg17_govex,38.71251950721794
+LAC,17,sdg17_govrev,37.38555170783507
+LAC,17,sdg17_oda,
+MENA,1,sdg1_320pov,6.301977130813356
+MENA,1,sdg1_oecdpov,
+MENA,1,sdg1_wpc,0.6995203411172854
+MENA,2,sdg2_crlyld,41.56062139889228
+MENA,2,sdg2_obesity,36.74159860465022
+MENA,2,sdg2_snmi,53.388792351683776
+MENA,2,sdg2_stunting,18.860453650752806
+MENA,2,sdg2_trophic,8.847757401235237
+MENA,2,sdg2_undernsh,5.611335350313023
+MENA,2,sdg2_wasting,26.760099120054324
+MENA,3,sdg3_births,0.29024168441076637
+MENA,3,sdg3_fertility,7.50193656634757
+MENA,3,sdg3_hiv,0.2490442234461071
+MENA,3,sdg3_incomeg,
+MENA,3,sdg3_matmort,0.9962739860574751
+MENA,3,sdg3_neonat,7.08825463586871
+MENA,3,sdg3_smoke,
+MENA,3,sdg3_swb,32.14780269276242
+MENA,3,sdg3_tb,1.3896051134210894
+MENA,3,sdg3_traffic,16.888098645194017
+MENA,3,sdg3_u5mort,2.5131206972045588
+MENA,3,sdg3_vac,12.970597220247562
+MENA,4,sdg4_earlyedu,
+MENA,4,sdg4_primary,12.06490928323914
+MENA,4,sdg4_second,16.555179713381282
+MENA,4,sdg4_tertiary,
+MENA,5,sdg5_edat,6.229060889711173
+MENA,5,sdg5_lfpr,60.98247869632789
+MENA,5,sdg5_parl,57.0824334385763
+MENA,5,sdg5_paygap,
+MENA,6,sdg6_safesan,
+MENA,6,sdg6_safewat,
+MENA,6,sdg6_sanita,2.839606145022144
+MENA,6,sdg6_scarcew,12.195953120349365
+MENA,6,sdg6_water,1.1839162299315007
+MENA,7,sdg7_cleanfuel,0.9532475347396124
+MENA,7,sdg7_co2twh,1.2313916904161344
+MENA,7,sdg7_elecac,6.587318666487181
+MENA,7,sdg7_ren,
+MENA,8,sdg8_empop,
+MENA,8,sdg8_gdpgrowth,51.227904520908254
+MENA,8,sdg8_impacc,3.842919552703183
+MENA,8,sdg8_unemp,24.465829947516546
+MENA,8,sdg8_yneet,
+MENA,9,sdg9_articles,70.12191470139221
+MENA,9,sdg9_intuse,10.9060887731999
+MENA,9,sdg9_mobuse,11.485901115040436
+MENA,9,sdg9_netacc,
+MENA,9,sdg9_patents,
+MENA,9,sdg9_rdex,84.42523249473314
+MENA,9,sdg9_rdres,
+MENA,9,sdg9_womensci,
+MENA,10,sdg10_adjgini,
+MENA,10,sdg10_elder,
+MENA,10,sdg10_palma,
+MENA,11,sdg11_pipedwat,13.306213336164316
+MENA,11,sdg11_pm25,49.02882928962704
+MENA,11,sdg11_rentover,
+MENA,11,sdg11_slums,20.17456393021025
+MENA,11,sdg11_transport,30.659743838100443
+MENA,13,sdg13_co2gcp,14.785593416275786
+MENA,13,sdg13_co2import,1.8943817578268103
+MENA,14,sdg14_cleanwat,47.07632083108863
+MENA,14,sdg14_cpma,48.9038623325332
+MENA,14,sdg14_fishstocks,34.30369797966355
+MENA,14,sdg14_trawl,18.300218676851067
+MENA,15,sdg15_cpfa,56.061397973481554
+MENA,15,sdg15_cpta,66.54421036603459
+MENA,15,sdg15_redlist,13.45305921877519
+MENA,16,sdg16_homicides,1.5719137570494992
+MENA,16,sdg16_prison,
+MENA,16,sdg16_rsf,46.5783197436364
+MENA,17,sdg17_govex,53.867521565346536
+MENA,17,sdg17_govrev,24.697282140233852
+MENA,17,sdg17_oda,
+West,1,sdg1_320pov,0.47499461036220836
+West,1,sdg1_oecdpov,22.380721005282197
+West,1,sdg1_wpc,0.340443795887044
+West,2,sdg2_crlyld,16.192485127023062
+West,2,sdg2_obesity,27.31696162305448
+West,2,sdg2_snmi,41.87526038365553
+West,2,sdg2_stunting,3.648321049613756
+West,2,sdg2_trophic,21.03075057585082
+West,2,sdg2_undernsh,5.205270165566844
+West,2,sdg2_wasting,7.778594371272837
+West,3,sdg3_births,2.017388954253962
+West,3,sdg3_fertility,1.6271059937413235
+West,3,sdg3_hiv,0.23901404789335307
+West,3,sdg3_incomeg,41.91375741827499
+West,3,sdg3_matmort,0.11200574971120136
+West,3,sdg3_neonat,1.0440414320197438
+West,3,sdg3_smoke,10.211461693708685
+West,3,sdg3_swb,9.063794533629443
+West,3,sdg3_tb,0.28638148454080853
+West,3,sdg3_traffic,1.0422542936775168
+West,3,sdg3_u5mort,0.16394351147757957
+West,3,sdg3_vac,5.5387251412139715
+West,4,sdg4_earlyedu,4.092458711151434
+West,4,sdg4_primary,1.446580718693126
+West,4,sdg4_second,2.3386407503992834
+West,4,sdg4_tertiary,5.120013747164689
+West,5,sdg5_edat,1.5355272534083473
+West,5,sdg5_lfpr,13.134432390393554
+West,5,sdg5_parl,23.74628327095873
+West,5,sdg5_paygap,19.292857668532783
+West,6,sdg6_safesan,5.06399853220841
+West,6,sdg6_safewat,0.8829491624569835
+West,6,sdg6_sanita,1.232290448794621
+West,6,sdg6_scarcew,8.497887828676287
+West,6,sdg6_water,0.36907501021958233
+West,7,sdg7_cleanfuel,1.6680757908426491
+West,7,sdg7_co2twh,3.848260448460841
+West,7,sdg7_elecac,
+West,7,sdg7_ren,55.55965032411149
+West,8,sdg8_empop,14.0179438741234
+West,8,sdg8_gdpgrowth,55.48987057524762
+West,8,sdg8_impacc,6.289121380680149
+West,8,sdg8_unemp,
+West,8,sdg8_yneet,8.504523413211984
+West,9,sdg9_articles,1.8075641839320258
+West,9,sdg9_intuse,0.9855355153377561
+West,9,sdg9_mobuse,0.0
+West,9,sdg9_netacc,16.50596096068514
+West,9,sdg9_patents,77.29677366686876
+West,9,sdg9_rdex,39.14835198704754
+West,9,sdg9_rdres,25.69379710585406
+West,9,sdg9_womensci,30.24889274201014
+West,10,sdg10_adjgini,16.47586809935506
+West,10,sdg10_elder,15.578759957102898
+West,10,sdg10_palma,5.364635529289748
+West,11,sdg11_pipedwat,1.0999068065714315
+West,11,sdg11_pm25,3.042021457888642
+West,11,sdg11_rentover,22.329952560137514
+West,11,sdg11_slums,
+West,11,sdg11_transport,20.859469008270793
+West,13,sdg13_co2gcp,10.0903587026919
+West,13,sdg13_co2import,4.805259801268953
+West,14,sdg14_cleanwat,43.40429263959245
+West,14,sdg14_cpma,22.207103641622645
+West,14,sdg14_fishstocks,40.33388767456718
+West,14,sdg14_trawl,31.786526236523482
+West,15,sdg15_cpfa,26.705752961701197
+West,15,sdg15_cpta,24.44938528205943
+West,15,sdg15_redlist,12.02675889993651
+West,16,sdg16_homicides,0.49321629058380784
+West,16,sdg16_prison,14.49288831112303
+West,16,sdg16_rsf,12.029747480852595
+West,17,sdg17_govex,20.202437364495164
+West,17,sdg17_govrev,
+West,17,sdg17_oda,61.06750554624138
