@@ -1,5 +1,7 @@
 """Complexity Economics and Sustainable Development
    Chapter 6 source code - Figure 6.1
+   
+   Description: computes development gaps
 
 Authors: Omar A. Guerrero & Gonzalo Castañeda
 Written in Python 3.7

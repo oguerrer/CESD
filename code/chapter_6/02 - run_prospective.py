@@ -1,5 +1,7 @@
 """Complexity Economics and Sustainable Development
    Chapter 6 source code
+   
+   Description: performs simulations looking into the future
 
 Authors: Omar A. Guerrero & Gonzalo Castañeda
 Written in Python 3.7
@@ -23,7 +25,7 @@ df_exp = pd.read_csv(home+"/data/chapter_6/expenditure.csv")
 
 countries = df.countryCode.unique()
 sample_size = 1000
-parallel_processes = 20
+parallel_processes = 4
 
 
 

@@ -1,5 +1,7 @@
 """Complexity Economics and Sustainable Development
    Chapter 6 source code
+   
+   Description: calibrates the model parameters
 
 Authors: Omar A. Guerrero & Gonzalo Castañeda
 Written in Python 3.7
@@ -18,7 +20,7 @@ import ppi
 
 
 
-df = pd.read_csv(home+"/data/chapter_6/indicators.csv")
+df = pd.read_csv(home+"/data/chapter_9/indicators.csv")
 colYears = [col for col in df.columns if str(col).isnumeric() and int(col)<2021]
 df_exp = pd.read_csv(home+"/data/chapter_6/expenditure.csv")
 
@@ -29,6 +31,7 @@ num_years = len(colYears)
 sub_periods = 4
 T = len(colYears)*sub_periods
 countries = df.countryCode.unique()
+parallel_processes = 4
 
 
 for country in countries:
@@ -84,7 +87,7 @@ for country in countries:
     print(country)
     outputs = ppi.calibrate(I0, IF, success_rates, A=A, R=R, qm=qm, rl=rl,  
                             Bs=Bs, B_dict=B_dict, threshold=.8, 
-                            parallel_processes=20, verbose=False, 
+                            parallel_processes=parallel_processes, verbose=False, 
                             low_precision_counts=101, increment=1000)
     
     dfc = pd.DataFrame(outputs[1::,:].astype(float), columns=outputs[0])

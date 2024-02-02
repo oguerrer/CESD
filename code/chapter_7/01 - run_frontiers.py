@@ -24,7 +24,7 @@ df_exp = pd.read_csv(home+"/data/chapter_6/expenditure.csv")
 
 countries = df.countryCode.unique()
 sample_size = 1000
-parallel_processes = 50
+parallel_processes = 4
 
 
 

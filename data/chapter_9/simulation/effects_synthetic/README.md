@@ -1,0 +1,1 @@
+The simulation data of this part of the book is too large to be stored in this repository. Therefore, we provide the file of one country as an example. To obtain the data for the rest of the sample, it is necessary to run the scripts contained in Chapter 9.

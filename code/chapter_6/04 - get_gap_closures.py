@@ -1,5 +1,7 @@
 """Complexity Economics and Sustainable Development
    Chapter 6 source code - Figure 6.2
+   
+   Description: computes how much the development gaps close by 2030
 
 Authors: Omar A. Guerrero & Gonzalo Castañeda
 Written in Python 3.7
