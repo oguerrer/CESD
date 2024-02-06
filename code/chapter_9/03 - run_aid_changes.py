@@ -1,7 +1,7 @@
 """Complexity Economics and Sustainable Development
    Chapter 9 source code
    
-   Description:performs simulations with and without aid
+   Description: performs simulations with and without aid
 
 Authors: Omar A. Guerrero & Gonzalo Castañeda
 Written in Python 3.7

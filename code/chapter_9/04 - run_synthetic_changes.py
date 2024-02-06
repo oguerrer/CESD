@@ -1,7 +1,7 @@
 """Complexity Economics and Sustainable Development
    Chapter 9 source code
    
-   Description:performs simulations with the natural variability of 
+   Description: performs simulations with the natural variability of 
        government expenditure
 
 Authors: Omar A. Guerrero & Gonzalo Castañeda
