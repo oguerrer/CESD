@@ -19,8 +19,8 @@ import ppi
 
 
 # Dataset
-df = pd.read_csv(home+'data/modeling/granular/simulated_data_integrated_sample.csv')
-df_exp = pd.read_csv(home+"data/modeling/granular/budget_integrated.csv")
+df = pd.read_csv(home+'/data/chapter_11/indicators.csv')
+df_exp = pd.read_csv(home+"/data/chapter_11/budget.csv")
 df_exp = df_exp[df_exp.target.isin(df.target.values.tolist()+df.target2.values.tolist())]
 all_targets = sorted(list(set(df.target[~df.target.isnull()].values.tolist() + 
                               df.target2[~df.target2.isnull()].values.tolist())), 
@@ -31,9 +31,8 @@ colYears = [col for col in df_exp.columns if col.isnumeric()]
 
 
 
-
+parallel_processes = 4
 num_years = len(colYears)
-
 sub_periods = 4
 T = len(colYears)*sub_periods
 
@@ -69,7 +68,7 @@ mean_drops[np.isnan(mean_drops)] = 0
 aa = np.abs(mean_drops/sub_periods)
 
 # Network
-A = np.loadtxt(home+"data/modeling/granular/network.csv", delimiter=',')
+A = np.loadtxt(home+"/data/chapter_11/network.csv", delimiter=',')
 
 # Governance
 qm = df.cc.values.copy()
@@ -88,13 +87,13 @@ Bs = ppi.get_dirsbursement_schedule(Bs, B_dict, T)
 
 
 outputs = ppi.calibrate(I0, IF, success_rates, A=A, R=R, qm=qm, rl=rl,  Bs=Bs, B_dict=B_dict, 
-          threshold=.9, parallel_processes=60, verbose=False, low_precision_counts=101, increment=1000)
+          threshold=.9, parallel_processes=parallel_processes, verbose=False, low_precision_counts=101, increment=1000)
 
 dfc = pd.DataFrame(outputs[1::,:].astype(float), columns=outputs[0])
 dfc['years'] = np.ones(N)*np.nan
 dfc.loc[0, 'years'] = num_years
 
-# dfc.to_csv(home+'data/modeling/granular/parameters.csv', index=False)
+dfc.to_csv(home+'/data/chapter_11/parameters.csv', index=False)
 
 
 
