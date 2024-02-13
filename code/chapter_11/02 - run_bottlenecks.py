@@ -36,7 +36,7 @@ num_years = len(colYears)
 
 sub_periods = 4
 T = len(colYears)*sub_periods
-parallel_processes = 30
+parallel_processes = 4
 sample_size = 100
 sub_sample_size = 1000
 
@@ -112,13 +112,6 @@ tsI, tsC, tsF, tsP, tsS, tsG = zip(*sols)
 I_hat = np.mean(tsI, axis=0)
     
 
-dff = pd.DataFrame(I_hat, columns=range(Bs.shape[1]))
-dff.to_csv(home+'/data/chapter_11/simulation/baseline_indis_bottlenecks.csv', index=False)
-
-dff = pd.DataFrame(Bs[:,0], columns=['expenditure'])
-dff.to_csv(home+'/data/chapter_11/simulation/baseline_budgets_bottlenecks.csv', index=False)
-
-
 
 # Counterfactuals
 
@@ -152,7 +145,7 @@ for ti, target_intervened in enumerate(targets):
     
     dff = pd.DataFrame(outputs, columns=['trial', 'series_code', 'target_intervened', 'target_affected1', 'target_affected2', 
                                          'area_baseline', 'area_counter', 'budget_baseline', 'budget_counter', 'budget_change'])
-    dff.to_csv(home+'/data/chapter_11/simulation/counterfactuals/counter_indis_bottlenecks_'+target_intervened+'.gzip', 
+    dff.to_csv(home+'/data/chapter_11/simulation/bottlenecks/'+target_intervened+'.gzip', 
                 index=False, compression={'method': 'gzip', 'compresslevel': 9})
     
 
