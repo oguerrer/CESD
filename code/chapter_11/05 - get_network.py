@@ -1,5 +1,5 @@
 """Complexity Economics and Sustainable Development
-   Chapter 11 source code - Figures 11.2, 11.3, and 11.4
+   Chapter 11 source code - Figure 11.5
    
    Description: runs simulations to detect accelerators
 
