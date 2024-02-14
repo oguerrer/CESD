@@ -1,3 +1,5 @@
+markdown: kramdown
+
 # Complexity Economics and Sustainable Development
 ## A Computational Toolkit for Policy Priority Inference
 
