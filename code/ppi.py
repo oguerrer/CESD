@@ -4,11 +4,6 @@ Authors: Omar A. Guerrero & Gonzalo Castañeda
 Written in Python 3.7
 
 
-Example
--------
-
-
-
 Rquired external libraries
 --------------------------
 - Numpy

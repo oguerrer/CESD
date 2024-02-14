@@ -3,11 +3,7 @@
 Authors: Omar A. Guerrero & Gonzalo Castañeda
 Written in Python 3.7
 
-
-Example
--------
-
-
+This version of PPI is an extension that allows for alternative income sources (parameter remitt).
 
 Rquired external libraries
 --------------------------
@@ -44,6 +40,10 @@ def run_ppi(I0, alphas, alphas_prime, betas, remitt, A=None, R=None, bs=None, qm
             Vector with parameters that normalize the contribution of public 
             expenditure and spillovers to the probability of a positive change
             in the indicators.
+	remitt: 2D numpy array
+	    A matrix with the remittances that poor households allocate each period
+	    to each policy dimension. Rows correspond to the indicators and columns
+	    to simulation periods.	
         A:  2D numpy array (optional)
             The adjacency matrix of the spillover network of development 
             indicators. The rows denote the origins of spillovers and the columns
@@ -553,7 +553,11 @@ def calibrate(I0, IF, success_rates, remitt, A=None, R=None, qm=None, rl=None,  
             This input is used to compute another type of error: whether the 
             endogenous probability of success of each indicator matches the 
             empirical rate of positive changes.
-        A:  2D numpy array (optional)
+	remitt: 2D numpy array
+	    A matrix with the remittances that poor households allocate each period
+	    to each policy dimension. Rows correspond to the indicators and columns
+	    to simulation periods.        
+	A:  2D numpy array (optional)
             The adjacency matrix of the spillover network of development 
             indicators. The rows denote the origins of spillovers and the columns
             their destinations. Self-loops are not allowed, so PPI turns A's
@@ -783,6 +787,36 @@ def calibrate(I0, IF, success_rates, remitt, A=None, R=None, qm=None, rl=None,  
         
     return output
     
+
+
+def get_success_rates(series):
+    sc = series[:, 1::]-series[:, 0:-1] # get changes in indicators
+    success_rates = np.sum(sc>0, axis=1)/sc.shape[1] # compute rates of success
+    success_rates = .9*(success_rates-success_rates.min())/(success_rates.max()-success_rates.min()) + .05
+    return success_rates
+
+
+
+def get_dirsbursement_schedule(Bs, B_dict, T):
+    programs = sorted(list(set([item for subl in list(B_dict.values()) for item in subl])))
+    B_sequence = [[] for program in programs]
+    subperiods = int(T/Bs.shape[1])
+    for i, program in enumerate(programs):
+        for period in range(Bs.shape[1]):
+            for subperiod in range(subperiods):
+                B_sequence[i].append( Bs[i,period]/subperiods )
+    B_sequence = np.array(B_sequence)
+    return B_sequence
+
+
+
+
+def run_ppi_parallel(I0, alphas, alphas_prime, betas, A=None, R=None, bs=None, qm=None, rl=None,
+            Imax=None, Imin=None, Bs=None, B_dict=None, G=None, T=50, frontier=None):
+    outputs = run_ppi(I0, alphas, alphas_prime, betas, A=A, R=R, bs=bs, qm=qm, rl=rl,
+            Imax=Imax, Imin=Imin, Bs=Bs, B_dict=B_dict, G=G, T=T, frontier=frontier)
+    return outputs
+
 
 
 
